@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-const BASE_URL = "http://localhost:3001";
+const BASE_URL = "https://deployment-cfg-practice-backend.onrender.com";
 export default function App() {
   const [tasks, setTasks] = useState([]);
   const [loading, setLoading] = useState(true);

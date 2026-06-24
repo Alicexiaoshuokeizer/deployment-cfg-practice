@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const BASE_URL = 'http://localhost:3001';
+const BASE_URL = import.meta.process.env.VITE_BASE_URL;
 
 export default function App() {
   const [tasks, setTasks] = useState([]);
